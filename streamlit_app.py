@@ -14,8 +14,8 @@ st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
 angka = st.number_input("Tulis Sebuah Angka:", value=0, step=1)
 
 if(angka%2)==0:
-    st.writer(f"{angka}adalah Bilangam Genap") 
+    st.write(f"{angka}adalah Bilangam Genap") 
 else:
-    st.writer(f"{angka} adalah Bilangan Ganjil")
+    st.write(f"{angka} adalah Bilangan Ganjil")
 
 
